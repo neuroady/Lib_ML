@@ -1,0 +1,13 @@
+Hi team5,
+
+Q1-
+
+4- Not valid a kernel. The Gram matrix is not PSD.
+6- Form Gram matrix again, it won't be symmetric.
+
+Q2-
+
+Gaussian kernel is obviously the right choice according to the visualizations. So I assume that's why other kernels are not included in grid search. In the cases where qualitative analysis is not enough/clear, quantitative methods like grid search will come in handy.
+
+
+-Ekrem

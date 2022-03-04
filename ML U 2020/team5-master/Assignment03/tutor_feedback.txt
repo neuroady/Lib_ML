@@ -1,0 +1,10 @@
+Hi team5,
+
+3.1- Nice work!
+
+3.2- In MSE, squared error should be divided by # of samples, not multiplied. Costs of varying # of iterations and learning rates should follow a path on the landscape. 
+
+3.3- [Q3.3.2] Regularization term punishes weights so that they do not grow large in value. You may decrease or increase effect of this term to the total loss (thus, to the model) by scaling with a value. Increased reg. might result in underfitting (punishing weights too hard. Hence they cannot grow to optimum value.)
+
+
+-Ekrem

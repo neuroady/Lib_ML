@@ -1,0 +1,10 @@
+Hi team5,
+
+2.2- Histogram should visualize distribution in both dimensions. Stacked distributions gives no information. If one obscures another, you can use the alpha parameter to make bars transparent. [Q2.2.4] Please remark that, eigenvector is the direction and eigenvalue is magnitude of the spread for a particular feature dimension (So there is D eigenvectors and values for D features).
+
+2.3- Well done. 
+
+2.4- Good observations with visual supports. Your results are also quite good. Well done.
+
+
+-Ekrem

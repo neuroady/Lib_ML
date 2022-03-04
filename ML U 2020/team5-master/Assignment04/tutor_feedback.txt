@@ -1,0 +1,23 @@
+Hi team5,
+
+Q1- Well done.
+
+[Iterative approaches] These methods utilize themselves without explicitly computing the covariance matrix. They reduce the complexity at least by a factor of D (# of features) and more advanced methods can achieve faster computation. 
+
+[Q.4.1.4] We make an assumption that variance is relevant to the task in hand. This example provides a counterexample. This time the first PC does not provide better class seperability, so sorting eigenvalues and taking largest one(s) would result in failure. Projections onto dimensions of larger eigenvalues should have larger variance.
+
+Q2- Great notebook!
+
+2-c: Not independent unless MI is zero. 
+2-b: Of course the rotated version has MI>0.
+
+Q3-
+
+Interesting. According to you histograms, the distributions have a trend to become bimodal :D Even though s2 is a Gaussian, it seems to have a negative kurtosis almost like uniform distribution. (Due to noise addition. If you increase noise, unsurprisingly they will become more and more Gaussian)
+
+It seems you have visualized wrong variables in shuffling example.
+
+Help part: What I understood from your question is that, how to handle ambiguities caused by ICA being underdetermined problem. Most of its applications actually does not require unambiguity, for example, somebody with domain knowledge can look up to EEG signals and tell which signals are the artifact adn which are relevant to the task. So I think it comes to knowing how 'sin' func looks like, as you said.
+
+
+-Ekrem
